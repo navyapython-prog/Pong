@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atari Pong</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        canvas {
+            background-color: black;
+            display: block;
+        }
+
+        #startBtn {
+            position: absolute;
+            top: 10px;
+            font-family: fantasy;
+            font-size: 20px;
+            padding: 10px;
+            background-color: lightcoral;
+            color: black;
+            argin: 8px;
+            border-color: lightgray;
+            border-width: 4px;
+            border-radius: 8px;
+        }
+
+        #startBtn:hover {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="pongCanvas" width="640" height="480"></canvas>
+    <!-- The HTML <canvas> element is a container for graphics that can be drawn using scripting, typically JavaScript. It's part of HTML5 and is used to create 2D shapes, bitmap images, and animations.
+    
+    The Canvas API provides a means for drawing graphics via JavaScript and the HTML <canvas> element. Among other things, it can be used for animation, game graphics, data visualization, photo manipulation, and real-time video processing. The Canvas API largely focuses on 2D graphics.
+    API stands for Application Programming Interface, which is a set of rules that allows software applications to communicate with each other.
+    -->
+    <button id="startBtn">START</button>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>
